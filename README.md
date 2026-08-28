@@ -2,9 +2,9 @@
 
 # 📊 Quality-of-Life-Spark-Analytics
 
-### Spark mortality-age prediction system.
+### Spark-based mortality-age prediction.
 
-Spark-based analysis and prediction over quality-of-life data.
+Big-data + ML analytics over quality-of-life data, with correlation analysis, predictions and an HDFS variant.
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
@@ -14,10 +14,19 @@ Spark-based analysis and prediction over quality-of-life data.
 
 ---
 
-**Quality-of-Life-Spark-Analytics** analyzes quality-of-life data with **Apache Spark** and predicts **mortality age** — including correlation analysis, prediction scatter plots and an HDFS-backed variant.
+**Quality-of-Life-Spark-Analytics** analyzes quality-of-life data with **Apache Spark** to predict **mortality age** — combining big-data processing, correlation analysis, prediction scatter plots and an **HDFS** deployment variant.
 
 > [!NOTE]
-> 中文项目：生活质量数据分析——Spark 死亡率年龄预测系统。
+> 中文项目：基于 Spark 的生活质量数据分析与死亡年龄预测——大数据处理 + 相关性分析 + 预测可视化，支持 HDFS 集群版。
+
+---
+
+## Features
+
+- **Spark analytics** — distributed quality-of-life processing.
+- **Mortality-age prediction** — scatter + correlation visualizations.
+- **HDFS variant** — `quality_of_life_hdfs.py` for cluster runs.
+- **End-to-end** — data → model → predictions CSV.
 
 ---
 
@@ -29,22 +38,11 @@ cd Quality-of-Life-Spark-Analytics
 
 pip install -r requirements.txt
 
-# run the analysis
-python quality_of_life_analysis.py
-
-# HDFS-backed variant
-python quality_of_life_hdfs.py
+python quality_of_life_analysis.py    # local analysis
+python quality_of_life_hdfs.py        # HDFS-backed variant
 ```
 
 Predictions land in `predictions_result/predictions.csv`.
-
----
-
-## Features
-
-- **Spark analytics** — distributed quality-of-life analysis.
-- **Mortality-age prediction** — prediction scatter + correlations.
-- **HDFS variant** — run on a Hadoop cluster.
 
 ---
 
