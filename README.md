@@ -59,6 +59,14 @@ Quality-of-Life-Spark-Analytics/
 
 ---
 
+
+## Results
+
+<div align="center">
+  <img src="prediction_scatter.png" alt="Prediction scatter" width="70%"/>
+</div>
+
+---
 ## License
 
 MIT — free to use, modify and distribute.
