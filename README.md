@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📊 Quality-of-Life-Spark-Analytics
+# 生活质量数据分析 | Quality-of-Life-Spark-Analytics
 
 ### Spark-based mortality-age prediction.
 
